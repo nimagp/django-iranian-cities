@@ -10,7 +10,7 @@ def my_migration(apps, schema_editor):
 
 class Migration(migrations.Migration):
     dependencies = [
-     i   ('iranian_cities', '0005_auto_20221004_0004'),
+        ('iranian_cities', '0005_auto_20221004_0004'),
     ]
 
     operations = [
